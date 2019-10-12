@@ -1,0 +1,15 @@
+.predict {
+  text-align: center;
+}
+
+.predict--choose-image {
+  display: none;
+}
+
+.predict--image {
+  display: inline;
+}
+
+.predict--image__disable {
+  display: none;
+}

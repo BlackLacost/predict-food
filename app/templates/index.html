@@ -3,5 +3,17 @@
 {% block title %}Index{% endblock %}
 
 {% block content %}
-<h1>Hello World</h1>
+<article class="predict">
+  <h1>Нейросеть для распознавания еды</h1>
+  <input class="predict--choose-image" type="file" accept="image/*" onchange="showImage(this)">
+  <div>
+    <button onclick="click_hidden_input()">Выбрать картинку</button>
+  </div>
+  <div>
+    <label class="predict--food"></label>
+  </div>
+  <div>
+    <img  class="predict--image predict--image__disable" height="200px" alt="Картинка для анализа">
+  </div>
+</article>
 {% endblock %}
