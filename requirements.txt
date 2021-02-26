@@ -3,5 +3,5 @@ uvicorn==0.9.0
 Jinja2==2.10.3
 aiofiles==0.4.0
 python-multipart==0.0.5
-aiohttp==3.6.2
+aiohttp==3.7.4
 fastai==1.0.58
